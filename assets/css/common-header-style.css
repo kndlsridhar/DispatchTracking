@@ -1,0 +1,242 @@
+@font-face {
+    font-family: ramabhadra;
+    src: url(../webfonts/ramabhadra.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Bold;
+    src: url(../webfonts/Rubik-Bold.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Black;
+    src: url(../webfonts/Rubik-Black.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Light;
+    src: url(../webfonts/Rubik-Light.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../webfonts/Rubik-Medium.ttf);
+}
+
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../webfonts/Rubik-Regular.ttf);
+}
+
+@import url(fontawesome.css);
+body {
+    font-family: Rubik-Regular;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/*Top bar*/
+
+.top-bar {
+    background: #F5F5F5;
+    padding: 5px 0px;
+}
+
+ul.topbar-list {
+    margin-bottom: 0px;
+}
+
+ul.topbar-list li {
+    display: inline-block;
+    border-right: 1px solid #E0E0E0;
+    padding: 0px 5px;
+    font-size: 13px;
+}
+
+ul.topbar-list li:last-child {
+    border: none;
+}
+
+.header-title {
+    background: linear-gradient(45deg, #3F51B5, #4CAF50);
+    padding: 0px;
+    color: white;
+}
+
+.header-title h2 {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: ramabhadra;
+    text-shadow: 1px 1px 3px black;
+}
+
+.profile {
+    width: 24%;
+    padding: 4px 0px 4px 10px;
+    margin-top: 5px;
+}
+
+.profile .ap-logo {
+    float: right !important;
+    margin-left: 5px !important;
+    border: none;
+    height: 80px;
+    width: 80px;
+}
+
+.profile img {
+    border-radius: 5px;
+    float: left;
+    width: 78px;
+    height: 78px;
+    border: 2px solid #EEEEEE;
+    margin-right: 10px;
+}
+
+.profile h5 {
+    margin-top: 15px !important;
+    font-size: 19px;
+    color: #fff;
+    font-family: ramabhadra;
+}
+
+.profile p {
+    font-size: 14px;
+    color: #F5F5F5;
+    font-family: ramabhadra;
+}
+
+.page-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.content-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: 1;
+    flex: 1;
+    overflow: auto;
+}
+
+.content {
+    padding: 1.25rem 1.25rem;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+footer {
+    text-align: center;
+    background: #424242;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    padding: 10px;
+    color: white;
+}
+
+footer h5 {
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+
+/*loginpage*/
+
+.login-form {
+    margin-top: 60px;
+    padding: 20px;
+    background: #E8EAF6;
+    box-shadow: 6px 6px 0px #303F9F;
+    border-radius: 20px;
+}
+
+
+/*Profilepage*/
+
+.circle-box {
+    background: #3F51B5;
+    text-align: center;
+    /* padding: 60px 10px; */
+    border-radius: 5%;
+    height: 125px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.circle a {
+    width: 100%;
+    color: white;
+}
+
+.circle-box i {}
+
+.circle-box h4 {
+    color: white;
+    font-size: 15px;
+}
+
+.profile-bg {
+    background: #EEEEEE;
+}
+
+.scheme-title {
+    background: #283593;
+    padding: 21px 0px;
+    color: white;
+    border-bottom-left-radius: 65px;
+    border-bottom-right-radius: 65px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.scheme h5 {
+    border-bottom: 2px solid #F44336;
+    padding: 10px 0px;
+    width: 50%;
+    color: #3F51B5;
+}
+
+.scheme ul {
+    padding: 0px;
+}
+
+.scheme ul li {
+    list-style: none;
+}
+
+.scheme ul li:before {
+    content: "\f054";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    font-size: 13px;
+    color: #1565C0;
+}
+
+.scheme ul li a {
+    color: #1565C0;
+    font-size: 14px;
+}
+
+.scheme ul li a:hover {
+    color: #424242;
+}
+
+
+/* .profile-ysr img{
+	height: 80px;
+    margin: 8px 0px;
+} */
